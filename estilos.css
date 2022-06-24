@@ -41,4 +41,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.card-body-img {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: -53px;
+  background-color: white;
+}
+.card-body-title {
+  font-size: 1.8rem;
+}
+.card-body-title span {
+  color: var(--dark-gray);
+  font-weight: 400;
 }/*# sourceMappingURL=estilos.css.map */

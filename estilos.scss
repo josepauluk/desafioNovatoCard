@@ -42,5 +42,23 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        &-img {
+            border: 5px solid white;
+            border-radius: 50%;
+            margin-top: calc(-48px - 5px);
+            background-color: white;
+
+        }
+
+        &-title {
+            font-size: 1.8rem;
+
+            span {
+                color: var(--dark-gray);
+                font-weight: 400;
+                // margin-left: 0.7rem;
+            }
+        }
     }
 }
